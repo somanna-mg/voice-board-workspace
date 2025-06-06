@@ -1,0 +1,47 @@
+{
+  "name": "voice-board-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voice Board Canvas - Interactive voice-driven educational tool for teaching data structures",
+  "author": "Voice Board Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:coverage": "turbo run test:coverage",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "clean-install": "pnpm clean && pnpm install",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.12",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "packages/backend/*"
+  ]
+} 

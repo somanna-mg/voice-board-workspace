@@ -1,0 +1,9 @@
+packages:
+  # Deployable applications
+  - 'apps/*'
+  
+  # Reusable packages
+  - 'packages/*'
+  
+  # Backend microservices
+  - 'packages/backend/*' 
