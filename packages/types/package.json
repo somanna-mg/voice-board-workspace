@@ -1,0 +1,27 @@
+{
+  "name": "@voice-board/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for Voice Board Canvas",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist node_modules"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vitest": "^0.34.0"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "voice-board"
+  ],
+  "author": "Voice Board Team",
+  "license": "MIT"
+} 
