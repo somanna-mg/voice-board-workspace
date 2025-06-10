@@ -1,5 +1,5 @@
 {
-  "name": "@voice-board/voice-board",
+  "name": "@voice-board/canvas",
   "version": "1.0.0",
   "description": "Interactive voice-driven educational tool for teaching data structures",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
-    "@voice-board/types": "workspace:*",
+    "@voice-board/shared-types": "workspace:*",
     "konva": "^9.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -63,6 +63,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/your-org/voice-board-workspace.git",
-    "directory": "packages/voice-board"
+    "directory": "packages/canvas"
   }
 } 

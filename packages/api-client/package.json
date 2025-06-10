@@ -1,0 +1,37 @@
+{
+  "name": "@voice-board/api-client",
+  "version": "1.0.0",
+  "description": "Frontend API client for Voice Board Canvas",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist node_modules"
+  },
+  "dependencies": {
+    "@voice-board/shared-types": "workspace:*",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.3",
+    "vitest": "^0.34.0"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "voice-board",
+    "http"
+  ],
+  "author": "Voice Board Team",
+  "license": "MIT"
+} 

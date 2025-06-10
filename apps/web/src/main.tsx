@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { VoiceBoard } from '@voice-board/voice-board'
+import { VoiceBoard } from '@voice-board/canvas'
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

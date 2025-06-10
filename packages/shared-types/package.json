@@ -1,5 +1,5 @@
 {
-  "name": "@voice-board/types",
+  "name": "@voice-board/shared-types",
   "version": "1.0.0",
   "description": "Shared TypeScript types for Voice Board Canvas",
   "main": "dist/index.js",

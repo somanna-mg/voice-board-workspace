@@ -1,5 +1,5 @@
 {
-  "name": "@voice-board/demo",
+  "name": "@voice-board/web",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -15,8 +15,8 @@
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
-    "@voice-board/voice-board": "workspace:*",
-    "@voice-board/types": "workspace:*",
+    "@voice-board/canvas": "workspace:*",
+    "@voice-board/shared-types": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
